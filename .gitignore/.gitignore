@@ -1,0 +1,42 @@
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+**/target
+
+# Intellij
+*.iml
+*.idea
+
+#Ignore Eclipse files
+*.project
+**/.settings
+*.classpath
+
+# Ignore Mac stuff
+.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+Terraform/keys/
+Terraform/keys
+Terraform/keysnode_modules/
+Terraform/esx/postgres-backend.tfvars
+Terraform/tfvars/backend-pg.tfvars
+DeploymentService/terraform/
+DeploymentService/node_module/
+DeploymentService/database/
+DeploymentService/package-lock.json
